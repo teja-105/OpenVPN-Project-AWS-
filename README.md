@@ -42,18 +42,18 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
 ## Step 3: OpenVPN Configuration
 ### 1. Configured the OpenVPN Server:
 - Connected to the OpenVPN Server from the AWS management console.  
-- Completed initial setup for the admin interface, including user authentication and network settings.  
+- Completed initial setup for the admin interface, including user authentication and network settings.
+![Alt_image](https://github.com/teja-105/OpenVPN-Project-AWS-/blob/3782698f5f00bbd69147fd776a8388da54ad484e/image.png)
 
 ### 2. Set Up the Client Application:
 - Installed the OpenVPN client application on my personal laptop.   
 - The application included a toggle button for switching the VPN connection on and off.
+![image](https://github.com/teja-105/OpenVPN-Project-AWS-/blob/bf2c6f0f5a52c9c997a69a119d806506adb6d1fe/image2.png)
 
 ### 3. Testing Connectivity:
 - Initially attempted SSH to the private server from my laptop, which failed since it lacked direct access to the private subnet.
 - Connected to the OpenVPN server using the client application, effectively making my laptop part of the VPC.  
 - Retried SSH to the private server and successfully connected.
-
-![Alt_image](https://github.com/teja-105/OpenVPN-Project-AWS-/blob/3782698f5f00bbd69147fd776a8388da54ad484e/image.png)
 
 
 ## Step 4: Security Configuration
