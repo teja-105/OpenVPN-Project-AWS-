@@ -22,7 +22,7 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
   #### Private Route Table:
 - No route to `0.0.0.0/0`, ensuring that the private subnet could not directly access the internet.  
 - Configured this route table to allow local traffic only.
-- - Named this route table PublicSubnetRoutetable.
+- Named this route table PublicSubnetRoutetable.
 
   ## Step 2: EC2 Instance Setup
 
