@@ -54,8 +54,8 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
 
 ## Step 4: Security Configuration
 
-###1. Private Server Security Group:
+### 1. Private Server Security Group:
 - Allowed inbound traffic on port 22 (SSH) only from the OpenVPN server.
 
-###2. Public Server Security Group:
+### 2. Public Server Security Group:
 - Configured to allow necessary inbound and outbound traffic for OpenVPN functionality.
