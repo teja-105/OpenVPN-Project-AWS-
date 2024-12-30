@@ -5,7 +5,7 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
 
 ## Step 1: VPC Setup
 ### 1. Created a Virtual Private Cloud (VPC):
-- CIDR Block: '10.0.0.0/16'  
+- CIDR Block: `10.0.0.0/16`  
 - This VPC serves as the network for hosting both the OpenVPN server and private server.
 
 ### 2. Configured Subnets:
