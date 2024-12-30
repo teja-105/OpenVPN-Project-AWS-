@@ -16,7 +16,7 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
 - The IGW was attached to the VPC to enable internet connectivity for the public subnet.
 
 ### 4.Configured Route Tables:
-  #### Public Route Table:
+  ####  Public Route Table:
 - Added a route for all internet traffic (0.0.0.0/0) directed to the IGW.  
 -  Associated this route table with the public subnet.  
   #### Private Route Table:
