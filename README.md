@@ -23,3 +23,14 @@ The IGW was attached to the VPC to enable internet connectivity for the public s
   No route to 0.0.0.0/0, ensuring that the private subnet could not directly access the internet.  
         Configured this route table to allow local traffic only.  
         Named this route table PublicSubnetRoutetable.
+
+  ## Step 2: EC2 Instance Setup
+
+  ### 1. Launched a Private Server:
+  Instance launched in the Private Subnet.  
+  No public IP assigned to ensure it remains isolated.  
+        Named this instance "Private Server".
+
+    Launched an OpenVPN Server:
+        Instance launched in the Public Subnet using the OpenVPN Access Server AMI from the AWS Marketplace.
+        Named this instance "OpenVPN Server".
