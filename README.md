@@ -53,6 +53,7 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
 - Connected to the OpenVPN server using the client application, effectively making my laptop part of the VPC.  
 - Retried SSH to the private server and successfully connected.
 
+![Alt_image](https://github.com/teja-105/OpenVPN-Project-AWS-/blob/3782698f5f00bbd69147fd776a8388da54ad484e/image.png)
 
 
 ## Step 4: Security Configuration
