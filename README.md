@@ -9,5 +9,5 @@ CIDR Block: 10.0.0.0/16
 This VPC serves as the network for hosting both the OpenVPN server and private server.
 
 ### 2. Configured Subnets:
-Public Subnet: CIDR Block 10.0.1.0/24 (for hosting the OpenVPN server).
+Public Subnet: CIDR Block 10.0.1.0/24 (for hosting the OpenVPN server).  
 Private Subnet: CIDR Block 10.0.2.0/24 (for hosting the private server, isolated from direct internet access).
