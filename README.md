@@ -29,7 +29,7 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
   ### 1. Launched a Private Server:
   - Instance launched in the Private Subnet.  
   - No public IP assigned to ensure it remains isolated.  
-    -    Named this instance `Private Server`.
+  - Named this instance `Private Server`.
 
   ### 2. Launched an OpenVPN Server:
   - Instance launched in the Public Subnet using the OpenVPN Access Server AMI from the AWS Marketplace.  
