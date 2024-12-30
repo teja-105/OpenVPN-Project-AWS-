@@ -63,6 +63,6 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
 
 ### 2. Public Server Security Group:
 - Configured to allow necessary inbound and outbound traffic for OpenVPN functionality.
-
+![img](https://github.com/teja-105/OpenVPN-Project-AWS-/blob/061f3a8eebe2553c68b90face7002f5b675337b8/image3.png)
 ## Outcome:
 #### The project successfully established a secure and scalable VPN solution in AWS. By leveraging OpenVPN, I ensured secure remote access to resources in the private subnet while maintaining strict network isolation. This design provides a foundation for secure and efficient cloud networking.
