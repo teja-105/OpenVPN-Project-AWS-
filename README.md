@@ -11,3 +11,15 @@ This VPC serves as the network for hosting both the OpenVPN server and private s
 ### 2. Configured Subnets:
 Public Subnet: CIDR Block 10.0.1.0/24 (for hosting the OpenVPN server).  
 Private Subnet: CIDR Block 10.0.2.0/24 (for hosting the private server, isolated from direct internet access).
+
+### 3. Attached an Internet Gateway (IGW):
+The IGW was attached to the VPC to enable internet connectivity for the public subnet.
+
+### 4.Configured Route Tables:
+  #### Public Route Table:
+   Added a route for all internet traffic (0.0.0.0/0) directed to the IGW.  
+      Associated this route table with the public subnet.
+    #### Private Route Table:
+        No route to 0.0.0.0/0, ensuring that the private subnet could not directly access the internet.  
+        Configured this route table to allow local traffic only.  
+        Named this route table PublicSubnetRoutetable.
