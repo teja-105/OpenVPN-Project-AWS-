@@ -3,6 +3,9 @@
 ## Description
 This project demonstrates a secure and scalable VPN solution using OpenVPN in an AWS environment. A custom VPC was designed with separate public and private subnets to ensure controlled traffic flow and high-security standards. The following is the detailed step-by-step process:
 
+![Alt text](https://github.com/teja-105/OpenVPN-Project-AWS-/blob/af2ef423a509b629b072846e9cc35afb28f6ddd0/Untitled%20Diagram.jpg)
+
+
 ## Step 1: VPC Setup
 ### 1. Created a Virtual Private Cloud (VPC):
 - CIDR Block: `10.0.0.0/16`  
