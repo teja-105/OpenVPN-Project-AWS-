@@ -61,4 +61,4 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
 - Configured to allow necessary inbound and outbound traffic for OpenVPN functionality.
 
 ## Outcome:
-- The project successfully established a secure and scalable VPN solution in AWS. By leveraging OpenVPN, I ensured secure remote access to resources in the private subnet while maintaining strict network isolation. This design provides a foundation for secure and efficient cloud networking.
+### The project successfully established a secure and scalable VPN solution in AWS. By leveraging OpenVPN, I ensured secure remote access to resources in the private subnet while maintaining strict network isolation. This design provides a foundation for secure and efficient cloud networking.
