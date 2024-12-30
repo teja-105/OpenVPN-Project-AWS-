@@ -1,1 +1,1 @@
-# OpenVPN-Project-AWS-
+# OpenVPN-Project (AWS)
