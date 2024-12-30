@@ -49,3 +49,13 @@ This project demonstrates a secure and scalable VPN solution using OpenVPN in an
 - Initially attempted SSH to the private server from my laptop, which failed since it lacked direct access to the private subnet.
 - Connected to the OpenVPN server using the client application, effectively making my laptop part of the VPC.  
 - Retried SSH to the private server and successfully connected.
+
+
+
+## Step 4: Security Configuration
+
+###1. Private Server Security Group:
+- Allowed inbound traffic on port 22 (SSH) only from the OpenVPN server.
+
+###2. Public Server Security Group:
+- Configured to allow necessary inbound and outbound traffic for OpenVPN functionality.
